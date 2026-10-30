@@ -1,0 +1,23 @@
+{
+  "name": "blue-collar-crm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first CRM starter for service and trade businesses.",
+  "main": "apps/api/src/server.js",
+  "scripts": {
+    "start": "node apps/api/src/server.js",
+    "dev": "node --watch apps/api/src/server.js",
+    "test": "node --test apps/api/tests/*.test.js",
+    "check": "node --check apps/api/src/server.js && node --check apps/api/src/modules/customers/service.js && node --check apps/api/src/modules/jobs/service.js && node --check apps/api/src/modules/messaging/service.js && node --check apps/api/src/modules/automations/service.js && node --check packages/shared/src/validation.js && node --check packages/database/src/seed.js && node --check packages/database/src/json-store.js && node --check apps/api/tests/crm.test.js && node --check apps/web/src/app/locales.js && node --check apps/web/src/app/app.js && node --check apps/web/src/app/sw.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "CRM",
+    "blue-collar",
+    "automation",
+    "messaging"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="title desc">
+  <title id="title">MLProcour</title>
+  <desc id="desc">MLProcour landscaping and outdoor services</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3f4f2"/>
+      <stop offset=".48" stop-color="#8d9290"/>
+      <stop offset="1" stop-color="#555b59"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#356b37"/>
+      <stop offset="1" stop-color="#153c27"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(24 9)">
+    <path fill="url(#green)" d="M18 238 92 126l14-4 3-27 53-75q8-11 20-7l19 9 10 24 55 130q11 27-9 43l-35 28 9-41-34-72-38 62-2 42H91l35-73-13-25-47 70H18Z"/>
+    <path fill="#fff" d="m94 127 72-100q5-7 11-2l9 8-65 99-16 2-2 21-45 67H44l49-73-3-22Z" opacity=".92"/>
+    <path fill="#244f2e" d="m178 39 40 104 18-21-35-87q-7-17-20-17-13 0-20 12l-7 13 10 11 8-15q3-5 6 0Z"/>
+    <path fill="#244f2e" d="m227 137 30 63q8 17-5 29l-22 19 5-33-30-56 22-22Z"/>
+    <path fill="url(#steel)" d="M296 230 328 62q4-19 23-19h54q15 0 22 13l31 65 26-65q6-13 22-13h53q21 0 16 21l-42 166h-66l24-96-39 80q-6 13-21 13h-23q-15 0-21-13l-35-80-18 96h-61Z"/>
+    <path fill="#fff" d="m359 76-13 67 45-45 26 54-22-87h-36Z" opacity=".6"/>
+  </g>
+  <text x="38" y="286" fill="#23432e" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="1">PROCOUR<tspan fill="#34713c">+</tspan></text>
+</svg>

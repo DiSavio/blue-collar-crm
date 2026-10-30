@@ -1,0 +1,17 @@
+{
+  "name": "MLProcour Paysagement",
+  "short_name": "MLProcour",
+  "description": "Clients, travaux paysagers et conversations pour MLProcour.",
+  "start_url": "/#overview",
+  "display": "standalone",
+  "background_color": "#f4f6f2",
+  "theme_color": "#23755b",
+  "icons": [
+    {
+      "src": "/mlprocour-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
